@@ -19,7 +19,7 @@ public class LibroInvestigacion extends LibroTexto {
 
     
     public double calcularDescuento() {
-        return super.getPrecio() * 0.75;  // 25% de descuento
+        return super.getPrecio() * 0.75;  
     }
 
     @Override
