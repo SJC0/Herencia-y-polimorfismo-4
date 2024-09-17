@@ -18,9 +18,8 @@ public class LibroTexto extends Libro {
         this.curso = curso;
     }
 
-    // Método para calcular el precio con descuento
     public double calcularDescuento() {
-        return precio * 0.60;  // 40% de descuento
+        return precio * 0.60; 
     }
 
     @Override
